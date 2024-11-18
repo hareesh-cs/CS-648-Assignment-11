@@ -1,0 +1,43 @@
+.carousel-caption {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.scrollspy-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+}
+.footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+.quickNav {
+    width: 100%;
+    margin-bottom: 10px;
+}
